@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    >
+
+    <meta name="theme-color" content="#9bbc0f">
+
+    <title>Snake Game</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="game-container">
+
+        <div class="lcd">
+
+            <div class="top-bar">
+                <span>SNAKE</span>
+                <span id="score">00000</span>
+            </div>
+
+            <canvas id="game"></canvas>
+
+            <div class="bottom-bar">
+                <span>HI <b id="highScore">00000</b></span>
+                <span id="status">READY</span>
+            </div>
+
+        </div>
+
+        <div class="controls">
+
+            <button class="control up" data-direction="up">▲</button>
+
+            <button class="control left" data-direction="left">◀</button>
+
+            <button class="control center" id="startButton">●</button>
+
+            <button class="control right" data-direction="right">▶</button>
+
+            <button class="control down" data-direction="down">▼</button>
+
+        </div>
+
+        <p class="keyboard">
+            Arrow Keys / WASD
+        </p>
+
+    </main>
+
+    <script src="game.js"></script>
+
+</body>
+</html>
