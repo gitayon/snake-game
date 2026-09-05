@@ -1,16 +1,8 @@
 # 🟩 SNAKE Game // RETRO LCD EDITION
 
-```text
-╔══════════════════════════════════════════╗
-║              S N A K E                   ║
-║                                          ║
-║       ▓▓▓  RETRO LCD EDITION  ▓▓▓       ║
-║                                          ║
-║          [ INSERT COIN? ]                ║
-║                                          ║
-║          PRESS START TO PLAY             ║
-╚══════════════════════════════════════════╝
-```
+<p align="center">
+  <img src="files/pc-demo (2).png" alt="Demo"/>
+</p>
 
 > **A tiny browser-based Snake game inspired by classic monochrome mobile gaming.**
 
@@ -28,6 +20,9 @@ Just open the game and play.
 `https://gitayon.github.io/snake-game/`
 
 > Best experienced in fullscreen on mobile or desktop.
+<p align="center">
+  <img src="files/mobile-demo.jpg" alt="Demo"/>
+</p> 
 
 ---
 
